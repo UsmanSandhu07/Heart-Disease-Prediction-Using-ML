@@ -86,5 +86,3 @@ The trained XGBoost model is integrated into a Flask web application that:
 
 ---
 
-## 📁 Project Structure
-
