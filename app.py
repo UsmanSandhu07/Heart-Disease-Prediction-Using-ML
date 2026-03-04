@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Load model from current directory
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "xgb_boost.joblib")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "Models", "xgb_boost.joblib")
 model = joblib.load(MODEL_PATH)
 
 
@@ -54,3 +54,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
